@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="DllMain.cpp" />
+    <ClCompile Include="GMisc\CPrecisionTimer.cpp">
+      <Filter>GMisc</Filter>
+    </ClCompile>
+    <ClCompile Include="GMisc\general.cpp">
+      <Filter>GMisc</Filter>
+    </ClCompile>
+    <ClCompile Include="GMisc\misc.cpp">
+      <Filter>GMisc</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="dllmain.h" />
+    <ClInclude Include="Gun_BLE.h" />
+    <ClInclude Include="GMisc\CPrecisionTimer.h">
+      <Filter>GMisc</Filter>
+    </ClInclude>
+    <ClInclude Include="GMisc\general.h">
+      <Filter>GMisc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="GMisc">
+      <UniqueIdentifier>{6db2c489-7f37-4b72-98e9-222680c6f61c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
